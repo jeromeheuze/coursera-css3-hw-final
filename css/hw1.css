@@ -74,3 +74,23 @@ section.right {
   float: right;
   width: 68%;
 }
+/** TABLE STYLES **/
+table {
+  width: 80%;
+  margin: 10px auto;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-radius: 4px 4px 0 0;
+}
+table tbody > tr {
+  background: rgb(157,164,70);
+  background: -moz-linear-gradient(0deg, rgba(157,164,70,1) 0%, rgba(71,124,22,1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(157,164,70,1) 0%, rgba(71,124,22,1) 100%);
+  background: linear-gradient(0deg, rgba(157,164,70,1) 0%, rgba(71,124,22,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9da446",endColorstr="#477c16",GradientType=1);
+  color: #fff;
+}
+table tbody tr td {
+  background: #e4f5d4;
+  color: #ddd;
+}
