@@ -110,12 +110,10 @@ table tbody tr:not(:first-child) {
   opacity: .75;
 }
 table tbody tr:hover {
- opacity: 1; 
+ opacity: 1;
+ box-shadow: inset 2px 0px 0px rgba(71,124,22,1);
 }
 table tbody tr td {
   background: #e4f5d4;
   color: #111;
-}
-table tbody tr:last-child {
-  border-bottom: 2px solid #75820b;
 }
