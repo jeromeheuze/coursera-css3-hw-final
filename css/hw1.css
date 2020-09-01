@@ -84,6 +84,7 @@ table {
   font-size: 0.9rem;
   font-family: arial;
   line-height: 2.5rem;
+  text-align: left;
 }
 table tbody > tr {
   background: rgb(157,164,70);
@@ -95,10 +96,15 @@ table tbody > tr {
 }
 table tbody tr th {
   border-radius: 4px 4px 0 0;
-  border: 2px solid #9cf908;
+  border-bottom: 2px solid #75820b;
 }
 table tbody > tr th:first-child {
   text-align:left;
+  padding-left: 15px;
+}
+table tbody tr td:first-child {
+  text-align:left;
+  padding-left: 15px;
 }
 table tbody tr td {
   background: #e4f5d4;
