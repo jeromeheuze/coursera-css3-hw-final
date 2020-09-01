@@ -93,6 +93,10 @@ table tbody > tr {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9da446",endColorstr="#477c16",GradientType=1);
   color: #fff;
 }
+table tbody tr th {
+  border-radius: 4px 4px 0 0;
+  border: 2px solid #9cf908;
+}
 table tbody > tr th:first-child {
   text-align:left;
 }
