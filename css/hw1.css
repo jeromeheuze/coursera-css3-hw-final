@@ -106,8 +106,8 @@ table tbody tr td:first-child {
   text-align:left;
   padding-left: 15px;
 }
-table tbody tr:nth-child(2) {
-  opacity: .8;
+table tbody tr:not(:first-child) {
+  opacity: .75;
 }
 table tbody tr:hover {
  opacity: 1; 
