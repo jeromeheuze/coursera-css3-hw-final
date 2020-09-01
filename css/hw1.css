@@ -76,11 +76,14 @@ section.right {
 }
 /** TABLE STYLES **/
 table {
-  width: 80%;
+  width: 90%;
   margin: 10px auto;
   border-collapse: separate;
   border-spacing: 2px;
   border-radius: 4px 4px 0 0;
+  font-size: 0.9rem;
+  font-family: arial;
+  line-height: 2.5rem;
 }
 table tbody > tr {
   background: rgb(157,164,70);
@@ -90,7 +93,10 @@ table tbody > tr {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9da446",endColorstr="#477c16",GradientType=1);
   color: #fff;
 }
+table tbody > tr th:first-child {
+  text-align:left;
+}
 table tbody tr td {
   background: #e4f5d4;
-  color: #ddd;
+  color: #111;
 }
